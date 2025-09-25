@@ -27,5 +27,19 @@ public class Main {
         double squareRoot = Math.sqrt(num);
         System.out.println("The square root of " + num + " is: " + squareRoot);
 
+        //Question 5:
+        int x1 = 5;
+        int y1 = 10;
+        int x2 = 85;
+        int y2 = 50;
+        int xDiff = x2 - x1;
+        int yDiff = y2 - y1;
+        double distance = Math.sqrt(Math.pow(xDiff, 2) + Math.pow(yDiff, 2));
+
+        System.out.println("The distance between the two coordinates is: " + distance);
+
+
+
+
     }
 }
