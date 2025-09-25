@@ -42,6 +42,8 @@ public class Main {
         double num2 = -3.8;
         System.out.println("The absolute value of " + num2 + " is: " + Math.abs(num2));
 
+        //Question 7:
+        System.out.println("Here is a random number: " + Math.random());
 
     }
 }
