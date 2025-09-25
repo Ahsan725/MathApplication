@@ -45,5 +45,16 @@ public class Main {
         //Question 7:
         System.out.println("Here is a random number: " + Math.random());
 
+        //Question 8;
+        int days = 24;
+        int hours = days * 24;
+        int mins = hours * 60;
+        int seconds = mins * 60;
+        int millisecs = seconds * 1000;
+
+        System.out.println("There are " + hours + " hours, " + mins + " mins, " + seconds + " seconds, "  + millisecs + " miliseconds in 24 days") ;
+
+
+
     }
 }
