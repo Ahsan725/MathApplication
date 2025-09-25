@@ -43,7 +43,7 @@ public class Main {
         System.out.println("The absolute value of " + num2 + " is: " + Math.abs(num2));
 
         //Question 7:
-        System.out.println("Here is a random number: " + Math.random());
+        System.out.println("Here is a random number between 0 and 1: " + Math.random());
 
         //Question 8;
         int days = 24;
