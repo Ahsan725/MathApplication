@@ -22,6 +22,10 @@ public class Main {
         double area = Math.PI * (radius * radius);
         System.out.println("The area of a circle with a radius of 7.25 is: " + area);
 
+        //Question 4:
+        double num = 5.0;
+        double squareRoot = Math.sqrt(num);
+        System.out.println("The square root of " + num + " is: " + squareRoot);
 
     }
 }
