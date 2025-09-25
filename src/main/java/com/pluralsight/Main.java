@@ -17,6 +17,11 @@ public class Main {
         System.out.println("The smallest price is: " + Math.min(carPrice, truckPrice));
 
         //Question 3:
+        //pi * radius * radius
+        double radius = 7.25;
+        double area = Math.PI * (radius * radius);
+        System.out.println("The area of a circle with a radius of 7.25 is: " + area);
+
 
     }
 }
