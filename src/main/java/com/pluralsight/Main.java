@@ -38,7 +38,9 @@ public class Main {
 
         System.out.println("The distance between the two coordinates is: " + distance);
 
-
+        //Question 6;
+        double num2 = -3.8;
+        System.out.println("The absolute value of " + num2 + " is: " + Math.abs(num2));
 
 
     }
