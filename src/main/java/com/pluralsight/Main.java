@@ -58,10 +58,7 @@ public class Main {
         //reading from a file and saving it somewhere
         Scanner myScanner = new Scanner(System.in);
         System.out.println("Enter an input and I will do something with it");
-        String input = myScanner.nextLine();
+        String input = myScanner.next();
         System.out.println("The input that you provided was: " + input);
-
-
-
     }
 }
