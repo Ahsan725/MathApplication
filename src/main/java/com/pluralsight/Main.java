@@ -1,4 +1,5 @@
 package com.pluralsight;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -36,7 +37,7 @@ public class Main {
         int yDiff = y2 - y1;
         double distance = Math.sqrt(Math.pow(xDiff, 2) + Math.pow(yDiff, 2));
 
-        System.out.println("The distance between the two coordinates is: " + distance);
+        System.out.println("The distance between the two coordinates is: "                 + distance);
 
         //Question 6;
         double num2 = -3.8;
@@ -53,6 +54,12 @@ public class Main {
         int millisecs = seconds * 1000;
 
         System.out.println("There are " + hours + " hours, " + mins + " mins, " + seconds + " seconds, "  + millisecs + " miliseconds in 24 days") ;
+
+        //reading from a file and saving it somewhere
+        Scanner myScanner = new Scanner(System.in);
+        System.out.println("Enter an input and I will do something with it");
+        String input = myScanner.nextLine();
+        System.out.println("The input that you provided was: " + input);
 
 
 
